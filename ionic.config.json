@@ -1,0 +1,7 @@
+{
+  "name": "attemptN2",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}
