@@ -1,10 +1,11 @@
+import { CommonModule } from '@angular/common';
 import { Component, EventEmitter, OnInit, Output } from '@angular/core';
 import { FormGroup, FormBuilder, Validators, FormArray, FormControl} from '@angular/forms';
 
 @Component({
   selector: 'app-test-form',
   templateUrl: './test-form.component.html',
-  styleUrls: ['./test-form.component.scss'],
+  styleUrls: ['./test-form.component.scss']
 })
   
 export class TestFormComponent  implements OnInit {
